@@ -1,0 +1,130 @@
+
+.page h2,
+.page h3,
+.page h4{
+/*    color: #F44336;*/
+/*    color: #f49c36;*/
+    color: #8d8d8d;
+}
+
+.page .s-title {
+	color: #d1d1d1;
+}
+
+.page .content .subhead {
+	color: #1d1d1d;
+}
+.page p {
+	color: #8d8d8d;
+}
+.pane-when {
+    color: #1d1d1d;
+}
+.pane-when .header {
+	border-bottom-color: #1d1d1d;
+}
+
+.p-footer .btn:after,
+.p-footer .btn:before,
+.p-footer .btn div:after,
+.p-footer .btn div:before{
+	background: #1d1d1d;
+}
+
+#fp-nav ul li a.active span, 
+#fp-nav ul li a:hover span,
+#fp-nav ul li a.active:hover span, 
+#fp-nav ul li a span {
+	background: #1d1d1d;
+}
+.header-top .menu-icon .bars .bar1, 
+.header-top .menu-icon .bars .bar2, 
+.header-top .menu-icon .bars .bar3 {
+	background: #1d1d1d;
+}
+.header-top .menu a ,
+.header-top .menu-icon .txt {
+	color: #1d1d1d;
+}
+.header-top .menu a::after {
+	border-bottom-color: #1d1d1d;
+}
+
+.page .form label,
+.page .form input {
+	color: #1d1d1d;
+}
+
+.page .form .fields {
+    border-bottom-color: #A9A9A9;
+    border-left-color: #A9A9A9;
+}
+.page .form textarea{
+	color: #1d1d1d;
+	border-color: #A9A9A9;
+}
+.page .form button {
+    background: #A9A9A9;
+    color: #fff;
+}
+
+.page-contact a {
+    color: #A9A9A9;
+}
+.s-fixed-content .socialnet a,
+.page-contact .socialnet a {
+	color: #1d1d1d;
+}
+.page-contact .socialnet a:hover:after {
+	background: rgba(29, 29, 29, 0.1);
+}
+
+.page-nav a {
+    background: #1d1d1d;
+    color: #fff;
+}
+
+
+.page-home .content, .page-home.page-cent .content {
+    width: 42%;
+}
+.page .content{
+	position: absolute;
+	z-index: 3;
+}
+
+/*.page.transition:before{
+	-webkit-visibility: visible;
+	visibility: visible;
+	-webkit-transform: none;
+	transform: none;
+}
+.page-home.transition .logo-container{
+	-webkit-transform: translateY(20px) scale(0.1);
+	transform: translateY(20px) scale(0.1);
+	opacity: 0;
+}
+.page.transition .content{
+	-webkit-transform: none;
+	transform: none;
+}
+.slide.transition{
+	-webkit-transform: none;
+	transform: none;
+	background: rgba(255, 255, 255, 0.15);
+}*/
+@media (max-width : 1024px){
+	.page-cover:before{
+		width: 50%;
+	}
+}
+@media (max-width : 600px){
+	.header-top .menu {
+		background:rgba(0,0,0,0) !important;
+	}
+}
+@media (max-width : 800px){
+	.page-cover:before{
+		display: none;
+	}
+}
